@@ -1,0 +1,127 @@
+<!DOCTYPE html >
+<html lang="en">
+<head>
+    <!-- Meta Tags -->
+    <meta charset="utf-8"/>
+    <meta name="description" content="Phozer-personal and photography template"/>
+    <meta name="keywords" content="responsive, creative, html/css, theme"/>
+    <meta name="author" content="harry"/>
+
+    <!-- Site Title-->
+    <title>Phozer</title>
+
+    <!-- Mobile Specific Metas-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+
+    <link href='http://fonts.googleapis.com/css?family=Raleway:400,200,300,500,600,700,800' rel='stylesheet'
+          type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Crete+Round:400,400italic' rel='stylesheet' type='text/css'>
+
+
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="css/magnific-popup.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="assets/simpletextrotator/simpletextrotator.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="css/style.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="css/light-blue.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="css/responsive.css" media="screen">
+
+</head>
+<body ng-app="myApp">
+<!-- Container -->
+<div id="container">
+
+    <!-- Header
+    ================================================== -->
+    <header>
+        <div class="logo-box logo">
+            <h1><a href="#/">AIRPLANE CRASH </a></h1>
+
+        </div>
+
+        <a class="elemadded responsive-link" href="#">Menu</a>
+
+        <div class="menu-box">
+            <ul class="menu">
+                <li>
+                    <a class="active" href="#/">
+                        <i class="fa fa-home"></i><span>Home</span>
+                    </a>
+                </li>
+
+                <li class="drop"><a href="#/table1"><i class="fa fa-diamond"></i><span>Operators</span></a>
+                    <ul class="drop-down">
+                        <li><a href="#/chart1"><span>Chart</span></a></li>
+                        <li><a href="#/table1"><span>Table</span></a></li>
+                    </ul>
+                </li>
+                 <li class="drop"><a href="#/table2"><i class="fa fa-diamond"></i><span>Type</span></a>
+                    <ul class="drop-down">
+                        <li><a href="#/chart2"><span>Chart</span></a></li>
+                        <li><a href="#/table2"><span>Table</span></a></li>
+                    </ul>
+                </li>
+                <li class="drop"><a href="#/table3"><i class="fa fa-diamond"></i><span>AirLine</span></a>
+                    <ul class="drop-down">
+                        <li><a href="#/chart3"><span>Chart</span></a></li>
+                        <li><a href="#/table3"><span>Table</span></a></li>
+                    </ul>
+                </li>
+                <li class="drop"><a href="#/table4"><i class="fa fa-diamond"></i><span>Date</span></a>
+                    <ul class="drop-down">
+                        <li><a href="#/chart4"><span>Chart</span></a></li>
+                        <li><a href="#/table4"><span>Table</span></a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+
+
+    </header>
+    <!-- End Header -->
+    <div ng-view>
+
+    </div>
+</div>
+
+
+<!-- Preloader -->
+<div class="preloader">
+    <img alt="" src="images/preloader.gif">
+</div>
+
+
+<!-- JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery.migrate.js"></script>
+<script type="text/javascript" src="js/jquery.magnific-popup.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/jquery.imagesloaded.min.js"></script>
+<script type="text/javascript" src="js/jquery.isotope.min.js"></script>
+<script type="text/javascript" src="assets/simpletextrotator/jquery.simple-text-rotator.min.js"></script>
+<script type="text/javascript" src="js/retina-1.1.0.min.js"></script>
+<script type="text/javascript" src="js/SmoothScroll.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+
+<script src="bower_components/angular/angular.min.js"></script>
+<script src="bower_components/angular-route/angular-route.min.js"></script>
+<script src="bower_components/chart.js/dist/Chart.min.js"></script>
+<script src="bower_components/angular-chart.js/dist/angular-chart.min.js"></script>
+<script src="main.js"></script>
+
+
+<script>
+    $(document).ready(function () {
+        $(".home-text .rotate").textrotator({
+            animation: "fade",
+            speed: 3000
+        });
+    });
+</script>
+
+
+</body>
+</html>
